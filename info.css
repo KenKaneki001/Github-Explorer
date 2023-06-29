@@ -79,6 +79,31 @@ button:focus {
     opacity: 80%;
     display: inline-block;
 }
+#raze{
+    height: 90px;
+    width: 490px;
+    display: inline-block;
+    margin-top: 18px;
+}
+#fade{
+    height: 90px;
+    width: 490px;
+    display: inline-block;
+    margin-top: 18px;
+}
+#sova{
+    height: 90px;
+    width: 490px;
+    display: inline-block;
+    margin-top: 18px;
+}
+#sage{
+    height: 90px;
+    width: 490px;
+    display: inline-block;
+    margin-top: 18px;
+}
+
 #repo{
     height: 90px;
     background-color: burlywood;
@@ -86,6 +111,7 @@ button:focus {
     opacity: 80%;
     display: inline-block;
 }
+
 #FE{
     height: 90px;
     background-color: burlywood;
