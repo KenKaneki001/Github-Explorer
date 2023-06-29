@@ -21,7 +21,6 @@ fetch(`https://api.github.com/users/${username}`).then((data) =>{
    return data.json();
 }).then((objectData)=>{
     console.log(objectData);
-    console.log(objectData.public_repos);
     document.getElementById("raze").innerHTML= `${objectData.name}(@${username}) ` ;
     document.getElementById("fade").innerHTML= objectData.public_repos;
     document.getElementById("sova").innerHTML= objectData.followers;
