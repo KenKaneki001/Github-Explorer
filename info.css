@@ -72,28 +72,28 @@ button:focus {
     opacity: 80%;
     border-radius: 6px;
 }
-#name{
+#Name{
     height: 90px;
     background-color: burlywood;
     width: 490px;
     opacity: 80%;
     display: inline-block;
 }
-#Bio{
+#repo{
     height: 90px;
     background-color: burlywood;
     width: 490px;
     opacity: 80%;
     display: inline-block;
 }
-#myth{
+#FE{
     height: 90px;
     background-color: burlywood;
     width: 490px;
     opacity: 80%;
     display: inline-block;
 }
-#ology{
+#FI{
     height: 90px;
     background-color: burlywood;
     width: 490px;
