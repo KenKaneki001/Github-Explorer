@@ -22,8 +22,10 @@ fetch(`https://api.github.com/users/${username}`).then((data) =>{
 }).then((objectData)=>{
     console.log(objectData);
     console.log(objectData.public_repos);
-    document.getElementById("Mylabel").innerHTML= username ;
-  
+    document.getElementById("raze").innerHTML= `${objectData.name}(@${username}) ` ;
+    document.getElementById("fade").innerHTML= objectData.public_repos;
+    document.getElementById("sova").innerHTML= objectData.followers;
+    document.getElementById("sage").innerHTML= objectData.following;
 })
 
 

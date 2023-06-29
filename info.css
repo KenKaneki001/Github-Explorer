@@ -63,7 +63,7 @@ button:focus {
 
 #box{
     width: 500px;
-    height: 360px;
+    height: 500px;
     margin: auto;
     margin-top: 150px;
     text-align: center;
@@ -80,28 +80,33 @@ button:focus {
     display: inline-block;
 }
 #raze{
-    height: 90px;
+    height: 50px;
     width: 490px;
     display: inline-block;
     margin-top: 18px;
+    background-color: burlywood;
+
 }
 #fade{
-    height: 90px;
+    height: 50px;
     width: 490px;
     display: inline-block;
     margin-top: 18px;
+    background-color: burlywood;
 }
 #sova{
     height: 90px;
     width: 490px;
     display: inline-block;
     margin-top: 18px;
+    background-color: burlywood;
 }
 #sage{
-    height: 90px;
+    height: 70px;
     width: 490px;
     display: inline-block;
     margin-top: 18px;
+    background-color: burlywood;
 }
 
 #repo{
