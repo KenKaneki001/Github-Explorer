@@ -71,6 +71,7 @@ button:focus {
     background-color: azure;
     opacity: 80%;
     border-radius: 6px;
+    
 }
 #Name{
     height: 90px;
@@ -78,6 +79,7 @@ button:focus {
     width: 490px;
     opacity: 80%;
     display: inline-block;
+    font-weight: bolder;
 }
 #raze{
     height: 50px;
@@ -85,7 +87,7 @@ button:focus {
     display: inline-block;
     margin-top: 18px;
     background-color: burlywood;
-
+    font-weight: lighter;
 }
 #fade{
     height: 50px;
@@ -93,6 +95,7 @@ button:focus {
     display: inline-block;
     margin-top: 18px;
     background-color: burlywood;
+    font-weight: lighter;
 }
 #sova{
     height: 90px;
@@ -100,6 +103,7 @@ button:focus {
     display: inline-block;
     margin-top: 18px;
     background-color: burlywood;
+    font-weight: lighter;
 }
 #sage{
     height: 70px;
@@ -107,6 +111,7 @@ button:focus {
     display: inline-block;
     margin-top: 18px;
     background-color: burlywood;
+    font-weight: lighter;
 }
 
 #repo{
@@ -115,6 +120,7 @@ button:focus {
     width: 490px;
     opacity: 80%;
     display: inline-block;
+    font-weight: bolder;
 }
 
 #FE{
@@ -123,6 +129,7 @@ button:focus {
     width: 490px;
     opacity: 80%;
     display: inline-block;
+    font-weight: bolder;
 }
 #FI{
     height: 90px;
@@ -130,6 +137,7 @@ button:focus {
     width: 490px;
     opacity: 80%;
     display: inline-block;
+    font-weight: bolder;
 }
 img{
     margin: auto;
