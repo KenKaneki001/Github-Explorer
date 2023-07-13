@@ -32,7 +32,6 @@ fetch(`https://api.github.com/users/${username}/repos`).then((dataR) =>{
    return dataR.json();
 }).then((objectDataR)=>{
     console.log(objectDataR);
-  
     
 })
 }
