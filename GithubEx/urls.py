@@ -1,5 +1,5 @@
 """
-URL configuration for GithubEx project.
+URL configuration for IITSOC project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -15,9 +15,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path,include
+from django.views.generic import TemplateView
 
 urlpatterns = [
+    path('', TemplateView.as_view(template_name='dashboard/home.html'), name='home'),
     path('admin/', admin.site.urls),
-    path("",include('EXPLORER.urls') )
+    path('home/', TemplateView.as_view(template_name='dashboard/home.html'), name='home'),
+    path('newinfo/', TemplateView.as_view(template_name='account/newinfo.html'), name='info'),
+    path('accounts/', include('allauth.urls')),
 ]

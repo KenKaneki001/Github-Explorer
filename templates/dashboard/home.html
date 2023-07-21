@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  href="http://127.0.0.1:8000/static/CSS/home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    {% load socialaccount %}
+{% load static %}
+
+{% get_providers as socialaccount_providers %}
+
+    <div id="banner"><h1>The Github Explorer</h1></div>
+
+    <div id="links"><a href="{% provider_login_url 'github'%}"><button>Signin</button></a>
+        <a href="http://localhost:8000/newinfo/"><button id="Suser">Search User</button></a>
+        
+    </div>
+        
+</body>
+</html>

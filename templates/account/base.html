@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% block head_title %}{% endblock %}</title>
+   
+    <style>
+      .form-group {
+        margin-top: 10px;
+      }
+    </style>
+    {% block extra_head %}
+    {% endblock %}
+  </head>
+  <body>
+    {% block body %}
+
+    {% if messages %}
+      <div class="p-2">
+        {% for message in messages %}
+          <div class="text-center border-bottom">{{message}}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="p-3 mb-3 bg-dark">
+      <div class="container d-flex justify-content-between">
+          {% if user.is_authenticated %}
+          {% else %}
+          {% endif %}
+      </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+    {% endblock %}
+    {% block extra_body %}
+    {% endblock %}
+
+  </body>
+</html>

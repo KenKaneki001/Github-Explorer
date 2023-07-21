@@ -1,5 +1,5 @@
 """
-ASGI config for GithubEx project.
+ASGI config for IITSOC project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 

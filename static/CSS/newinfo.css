@@ -1,0 +1,183 @@
+body{
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-image: url(http://127.0.0.1:8000//static/Pics/peak.jpg);
+}
+#hello{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 20%;
+    height: 93vh;
+    float: left;
+    position: fixed;
+    top: 45px;
+    background: rgb(0,0,0,0.7);
+    backdrop-filter: blur(5px);
+    color: #6cc644;
+}
+#profile{
+    border-radius: 50%;
+    position: relative;
+    left: 18%;
+    bottom: -10%;
+}
+#proName{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: #FFB84C;
+    font-size: 22px;
+}
+#Fr{
+    position: relative;
+    top: 25%;
+    text-align: center;
+    color: #FFB84C;
+    font-size: 22px;
+}
+#Fg{
+    position: relative;
+    top: 35%;
+    text-align: center;
+    color: #FFB84C;
+    font-size: 22px;
+}
+
+#Desc{
+   /* background-color: burlywood; */
+    height: 100vh;
+    width:80%;
+    float: right;
+    
+}
+#Rep{
+    position: relative;
+    left: 20px;
+
+}
+#Repo{
+    position:absolute ;
+   width:100vb;
+   height: 650px;
+   width: 1170px;
+   top: 30%;
+   color: #6cc644;
+   background: rgb(0,0,0,0.7);
+   backdrop-filter: blur(5px);
+   border: solid 2px #6cc644;
+   border-radius: 20px;
+}
+
+#Repo a{
+    text-decoration: none;
+    color: #6cc644;
+    font-size: 30px;
+}
+#Repo a:hover{
+    color: #FFB84C;
+}
+.logo a{ 
+    font-size: 25px;
+    text-decoration: none;
+    width: 2%;
+    color: white;
+    font-weight: bolder;
+
+}
+.logo{
+    width: 230px;
+    padding: 6.7px;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+}
+
+.Puser{
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+    top: -7px;
+    font-size: 18px;
+    color: white;
+
+}
+#bar{
+    background-color:#201e1e;
+    height: 40px;
+}
+#cat{
+    height: 40px;
+}
+#log{
+    display: inline;
+    position: absolute;
+    right: 15px;
+    top: 9px;
+}
+#log button{
+    height: 30px;
+    width: 80px;
+    appearance: none;
+ background-color: #6cc644;
+ border: 0.125em solid #1A1A1A;
+ border-radius: 0.5em;
+ box-sizing: border-box;
+ color: black;
+ cursor: pointer;
+ display: inline-block;
+ font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+ font-size: 14px;
+ font-weight: 600;
+ line-height: normal;
+ margin: 0;
+ outline: none;
+ text-align: center;
+ text-decoration: none;
+ transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ will-change: transform;
+ position: relative;
+ bottom: 4px;
+}
+#log button:hover{
+   background-color:#7fe753;
+}
+li{
+    display: inline;
+}
+#sbar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 85px;
+    width: 600px;
+    height: 55px;
+    left: 450px;
+}
+#sbar input{
+    flex: 1;
+    border: 4px solid #6cc644;
+    outline: none;
+    font-size: 18px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    padding-left: 10px;
+
+}
+#sbar button{
+    font-size: 20px;
+    background: #6cc644;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
