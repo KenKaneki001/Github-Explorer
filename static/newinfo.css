@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+}
+#hello{
+    border: 5px solid;
+    width: 20%;
+    height: 100vh;
+    float: left;
+    position: fixed;
+}
+#profile{
+    border-radius: 50%;
+    position: relative;
+    left: 18%;
+    bottom: -20%;
+}
+.UserP{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-size: large;
+}
+#Desc{
+   /* background-color: burlywood; */
+    height: 100vh;
+    width:80%;
+    float: right;
+    
+   
+}
+#Repo{
+    border-top:5px solid ;
+    position:absolute ;
+   width:100vb;
+   height: fit-content;
+   top: 30%;
+   
+}
