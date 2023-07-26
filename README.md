@@ -99,13 +99,11 @@ Happy exploring! 🚀
 
 ## Acknowledgements
 
-We would like to express our gratitude to the following individuals and communities who have contributed to the success of the GitHub Exploror project:
-
-1. GitHub: Our project would not be possible without the incredible platform and services provided by GitHub. We appreciate their continuous efforts in fostering a thriving open-source community
-
-2. GitHub API Developers: We acknowledge the efforts of the developers responsible for maintaining and improving the GitHub API. Their work enables us to access valuable repository and user data, making GitHub Exploror a powerful tool.
-
-3. Django Team: The development of GitHub Exploror heavily relies on the Django library. We extend our thanks to the dedicated team behind React for providing an excellent framework for building dynamic user interfaces.
+We would like to express our gratitude to the following individuals and communities who have contributed to the success of the GitHub Explorer project:
+GitHub: Our project would not be possible without the incredible platform and services provided by GitHub. We appreciate their continuous efforts in fostering a thriving open-source community
+GitHub API Developers: We acknowledge the efforts of the developers responsible for maintaining and improving the GitHub API. Their work enables us to access valuable repository and user data, making GitHub Explorer a powerful tool.
+Django Team: The development of GitHub Explorer heavily relies on the Django library. We extend our thanks to the dedicated team behind React for providing an excellent framework for building dynamic user interfaces.
+![image](https://github.com/KenKaneki001/IITISoC/assets/137993314/90da6cab-a773-46fa-9034-86a37cd2a854)
 
 
 
