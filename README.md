@@ -71,7 +71,7 @@ Start the server
    
     Uses Github login to authenticate a user, retreiving user data like user name and log them in github as well which can be used fork repositories of other users.
 
-   **User Profile Analysis:**
+  - **User Profile Analysis:**
    User profile analysis uses github api to retrieve user data like repositories,their name, followers and following.
    U can also fork a user repositoriy if u logged in thorugh our Authentication system or through Github.
 
