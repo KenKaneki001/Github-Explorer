@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.github',
-    'crispy_forms',
 
 ]
 
@@ -146,7 +145,6 @@ SITE_ID = 1
 LOGIN_REDIRECT_URL = 'info'
 ACCOUNT_LOGOUT_REDIRECT_URL= 'home'
 
-CRISPY_TEMPLATE_PACK = 'uni_form'
 
 SOCIALACCOUNT_PROVIDERS = {
     'github': {

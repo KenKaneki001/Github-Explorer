@@ -22,6 +22,9 @@ fetch(`https://api.github.com/users/${username}/repos`).then((dataR) =>{
     for(i=0; i<objectDataR.length; i++){
         document.getElementById(`Repo${i}`).innerHTML=objectDataR[i].name;
         document.getElementById(`Repo${i}`).href=objectDataR[i].html_url;
+        document.getElementById(`FOR${i}`).innerHTML=`fork(${objectDataR[i].forks_count})`;
+        document.getElementById(`FOR${i}`).href=`https://github.com/${username}/${objectDataR[i].name}/fork` ;
+
     }
     
 })
